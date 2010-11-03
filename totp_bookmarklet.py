@@ -7,7 +7,7 @@ def __content(f):
 
 crypto_js = __content('crypto.js')
 hotp_js = __content('hotp.js')
-myotp_js = __content('my-otp.js').
+myotp_js = __content('my-otp.js')
 
 
 def dataize(document, type='text/html'):
