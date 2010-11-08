@@ -24,9 +24,4 @@ def otp_doc(secret):
 
 if __name__ == '__main__':
     import sys
-    print '''
-<html>
-<body>
-<a href="%s">OTP Link</a>
-</body>
-</html>''' % otp_doc(sys.argv[1])
+    print '''<html><body><a href="%s" title="Drag me to your bookmark">OTP Password</a></body></html>''' % otp_doc(sys.argv[1])
